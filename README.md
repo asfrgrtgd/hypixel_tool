@@ -1,2 +1,2 @@
 # hypixel_tool
-## Rising standard of living on hypixel
+Rising standard of living on hypixel
