@@ -1,7 +1,7 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
+  "modid": "hypixelhighqolmod",
+  "name": "HYPIXEL HIGH QOL MOD",
   "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",

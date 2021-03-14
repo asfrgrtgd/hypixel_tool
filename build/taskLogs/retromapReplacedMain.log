@@ -33387,14 +33387,14 @@ RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraf
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 0 -> p_i2158_1_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 1 -> p_i2158_2_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/storage/WorldInfo;)V 0 -> p_i2159_1_
-Start Processing: com\example\examplemod\ExampleMod.java
-[method, com/example/examplemod/ExampleMod/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
+Start Processing: jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java
+[method, com/example/hypixelhighqolmod/hypixelhighqolmod/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
 No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
-Rename class net/minecraft/init/Blocks[567,573]::Blocks->Blocks
-Rename field net/minecraft/init/Blocks/dirt[574,578]::dirt->field_150346_d
-Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[589,607]::getUnlocalizedName->func_149739_a
+Rename class net/minecraft/init/Blocks[602,608]::Blocks->Blocks
+Rename field net/minecraft/init/Blocks/dirt[609,613]::dirt->field_150346_d
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[624,642]::getUnlocalizedName->func_149739_a
 Import: net.minecraft.init.Blocks
 Adding 0 imports
-End  Processing: com\example\examplemod\ExampleMod.java
+End  Processing: jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java
 
