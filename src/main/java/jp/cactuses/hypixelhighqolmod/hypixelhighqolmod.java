@@ -1,4 +1,4 @@
-package jp.cactuses.hypixelhighqolmod;
+package jp.cactuses.hypixelhighqoltool;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
@@ -10,9 +10,9 @@ import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = hypixelhighqolmod.MODID, version = hypixelhighqolmod.VERSION)
-public class hypixelhighqolmod{
-    public static final String MODID = "hypixelhighqolmod";
+@Mod(modid = hypixelhighqoltool.MODID, version = hypixelhighqoltool.VERSION)
+public class hypixelhighqoltool{
+    public static final String MODID = "hypixelhighqoltool";
     public static final String VERSION = "1.0";
 
     @EventHandler
