@@ -4,6 +4,7 @@ import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.client.event.ClientChatReceivedEvent;
 
 @Mod(modid = hypixelhighqolmod.MODID, version = hypixelhighqolmod.VERSION)
 public class hypixelhighqolmod{
