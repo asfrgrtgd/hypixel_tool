@@ -1,23 +1,37 @@
 Symbol range map extraction starting
 Processing 1 files
-processing jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java
-@|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|8|37|com.example.hypixelhighqolmod|package|com.example.hypixelhighqolmod|(file)
-Class Start: com.example.hypixelhighqolmod.hypixelhighqolmod
-   @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|371|377|String|class|java.lang.String
-   @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|378|383|MODID|field|com.example.hypixelhighqolmod.hypixelhighqolmod|MODID|
-   @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|431|437|String|class|java.lang.String
-   @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|438|445|VERSION|field|com.example.hypixelhighqolmod.hypixelhighqolmod|VERSION|
+processing jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java
+@|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|8|38|jp.cactuses.hypixelhighqoltool|package|jp.cactuses.hypixelhighqoltool|(file)
+Class Start: jp.cactuses.hypixelhighqoltool.hypixelhighqoltool
+   @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|813|819|String|class|java.lang.String
+   @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|820|825|MODID|field|jp.cactuses.hypixelhighqoltool.hypixelhighqoltool|MODID|
+   @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|874|880|String|class|java.lang.String
+   @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|881|888|VERSION|field|jp.cactuses.hypixelhighqoltool.hypixelhighqoltool|VERSION|
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|494|498|init|method|com.example.hypixelhighqolmod.hypixelhighqolmod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|499|521|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|522|527|event|param|com.example.hypixelhighqolmod.hypixelhighqolmod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|566|572|System|class|java.lang.System
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|573|576|out|field|java.lang.System|out
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|577|584|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|602|608|Blocks|class|net.minecraft.init.Blocks
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|609|613|dirt|field|net.minecraft.init.Blocks|dirt
-      @|jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java|614|632|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|933|937|init|method|jp.cactuses.hypixelhighqoltool.hypixelhighqoltool|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|938|960|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|961|966|event|param|jp.cactuses.hypixelhighqoltool.hypixelhighqoltool|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|977|993|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|994|1002|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1005|1008|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1011|1019|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1035|1049|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1050|1059|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1060|1068|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-Class End  : com.example.hypixelhighqolmod.hypixelhighqolmod
-endProcessing jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java
+   Method Start: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1123|1129|onChat|method|jp.cactuses.hypixelhighqoltool.hypixelhighqoltool|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1130|1153|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1154|1159|event|param|jp.cactuses.hypixelhighqoltool.hypixelhighqoltool|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1166|1172|String|class|java.lang.String
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1183|1188|event|param|jp.cactuses.hypixelhighqoltool.hypixelhighqoltool|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1189|1196|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1197|1215|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1238|1246|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1267|1276|Minecraft|class|net.minecraft.client.Minecraft
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1277|1289|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java|1292|1308|toggleFullscreen|method|net.minecraft.client.Minecraft|toggleFullscreen|()V
+   Method End: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : jp.cactuses.hypixelhighqoltool.hypixelhighqoltool
+endProcessing jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java
 

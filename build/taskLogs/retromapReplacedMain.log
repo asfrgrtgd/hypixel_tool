@@ -33387,14 +33387,32 @@ RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraf
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 0 -> p_i2158_1_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 1 -> p_i2158_2_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/storage/WorldInfo;)V 0 -> p_i2159_1_
-Start Processing: jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java
-[method, com/example/hypixelhighqolmod/hypixelhighqolmod/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
+Start Processing: jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java
+Warning: jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java has CRLF line endings; consider switching to LF
+[method, jp/cactuses/hypixelhighqoltool/hypixelhighqoltool/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
 No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
-[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
-Rename class net/minecraft/init/Blocks[602,608]::Blocks->Blocks
-Rename field net/minecraft/init/Blocks/dirt[609,613]::dirt->field_150346_d
-Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[624,642]::getUnlocalizedName->func_149739_a
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/bus, ()Lnet/minecraftforge/fml/common/eventhandler/EventBus;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/bus ()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+[method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
+No rename for class net/minecraftforge/common/MinecraftForge
+No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
+[method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
+[method, jp/cactuses/hypixelhighqoltool/hypixelhighqoltool/onChat, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
+No rename for class net/minecraftforge/client/event/ClientChatReceivedEvent
+No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
+Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[1197,1215]::getUnformattedText->func_150260_c
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+Rename class net/minecraft/client/Minecraft[1262,1271]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1272,1284]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/toggleFullscreen ()V[1287,1303]::toggleFullscreen->func_71352_k
 Import: net.minecraft.init.Blocks
+Import: net.minecraft.client.gui.FontRenderer
+Import: net.minecraft.client.Minecraft
 Adding 0 imports
-End  Processing: jp\cactuses\hypixelhighqolmod\hypixelhighqolmod.java
+End  Processing: jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java
 
