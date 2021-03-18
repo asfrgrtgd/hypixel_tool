@@ -33402,17 +33402,32 @@ No rename for class net/minecraftforge/common/MinecraftForge
 No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
 [method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
 No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
-[method, jp/cactuses/hypixelhighqoltool/hypixelhighqoltool/onChat, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
-No rename for class net/minecraftforge/client/event/ClientChatReceivedEvent
-No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
-Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[1197,1215]::getUnformattedText->func_150260_c
-[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
-Rename class net/minecraft/client/Minecraft[1262,1271]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1272,1284]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/toggleFullscreen ()V[1287,1303]::toggleFullscreen->func_71352_k
+[method, jp/cactuses/hypixelhighqoltool/hypixelhighqoltool/receivecommand, (Lnet/minecraftforge/event/ServerChatEvent;)V]
+No rename for class net/minecraftforge/event/ServerChatEvent
+No rename for field net/minecraftforge/event/ServerChatEvent/message
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+Rename class net/minecraft/client/Minecraft[1677,1686]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1687,1699]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[1702,1711]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[1716,1731]::sendChatMessage->func_71165_d
+[method, net/minecraftforge/fml/common/eventhandler/Event/setCanceled, (Z)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/Event/setCanceled (Z)V
+[method, jp/cactuses/hypixelhighqoltool/hypixelhighqoltool/onRender, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/RenderTickEvent
+Rename class net/minecraft/client/Minecraft[1875,1884]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1885,1897]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/inGameHasFocus[1900,1914]::inGameHasFocus->field_71415_G
+Rename class net/minecraft/client/Minecraft[1928,1937]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1938,1950]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/fontRendererObj[1953,1968]::fontRendererObj->field_71466_p
+Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[1967,1977]::drawString->func_78276_b
 Import: net.minecraft.init.Blocks
 Import: net.minecraft.client.gui.FontRenderer
 Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.gui.GuiChat
+Import: net.minecraft.client.gui.Gui
+Import: net.minecraft.client.gui.GuiScreen
+Import: net.minecraft.client.gui.inventory.GuiContainer
 Adding 0 imports
 End  Processing: jp\cactuses\hypixelhighqoltool\hypixelhighqoltool.java
 
