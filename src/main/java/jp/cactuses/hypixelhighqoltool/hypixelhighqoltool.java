@@ -26,6 +26,7 @@ public class hypixelhighqoltool{
     public static final String MODID = "hypixelhighqoltool";
     public static final String VERSION = "1.0";
     public String test = "FIRST";
+    public Boolean checklist = false;
 
     @EventHandler
     public void init(FMLInitializationEvent event){
@@ -40,9 +41,18 @@ public class hypixelhighqoltool{
         if(com.equals(".rp")){
             test = "i got that";
             Minecraft.getMinecraft().thePlayer.sendChatMessage("/p list");
+            checklist = true;
             event.setCanceled(true);
         }
     }
+
+    @SubscribeEvent
+    public void receivelist(ServerChatEvent event){
+        if(!checklist)return;
+        String com = event.message;
+        checklist = false;
+    }
+
 
     @SubscribeEvent
     public void onRender(RenderTickEvent event){

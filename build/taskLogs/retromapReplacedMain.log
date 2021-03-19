@@ -33406,21 +33406,24 @@ No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/registe
 No rename for class net/minecraftforge/event/ServerChatEvent
 No rename for field net/minecraftforge/event/ServerChatEvent/message
 [method, java/lang/String/equals, (Ljava/lang/Object;)Z]
-Rename class net/minecraft/client/Minecraft[1677,1686]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1687,1699]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[1702,1711]::thePlayer->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[1716,1731]::sendChatMessage->func_71165_d
+Rename class net/minecraft/client/Minecraft[1715,1724]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1725,1737]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[1740,1749]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[1754,1769]::sendChatMessage->func_71165_d
 [method, net/minecraftforge/fml/common/eventhandler/Event/setCanceled, (Z)V]
 No rename for method net/minecraftforge/fml/common/eventhandler/Event/setCanceled (Z)V
+[method, jp/cactuses/hypixelhighqoltool/hypixelhighqoltool/receivelist, (Lnet/minecraftforge/event/ServerChatEvent;)V]
+No rename for class net/minecraftforge/event/ServerChatEvent
+No rename for field net/minecraftforge/event/ServerChatEvent/message
 [method, jp/cactuses/hypixelhighqoltool/hypixelhighqoltool/onRender, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent;)V]
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/RenderTickEvent
-Rename class net/minecraft/client/Minecraft[1875,1884]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1885,1897]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/inGameHasFocus[1900,1914]::inGameHasFocus->field_71415_G
-Rename class net/minecraft/client/Minecraft[1928,1937]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1938,1950]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/fontRendererObj[1953,1968]::fontRendererObj->field_71466_p
-Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[1967,1977]::drawString->func_78276_b
+Rename class net/minecraft/client/Minecraft[2116,2125]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2126,2138]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/inGameHasFocus[2141,2155]::inGameHasFocus->field_71415_G
+Rename class net/minecraft/client/Minecraft[2169,2178]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2179,2191]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/fontRendererObj[2194,2209]::fontRendererObj->field_71466_p
+Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[2208,2218]::drawString->func_78276_b
 Import: net.minecraft.init.Blocks
 Import: net.minecraft.client.gui.FontRenderer
 Import: net.minecraft.client.Minecraft
