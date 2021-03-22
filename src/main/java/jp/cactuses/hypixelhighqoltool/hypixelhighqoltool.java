@@ -57,7 +57,7 @@ public class hypixelhighqoltool{
     @SubscribeEvent
     public void onRender(RenderTickEvent event){
         if(Minecraft.getMinecraft().inGameHasFocus){
-            Minecraft.getMinecraft().fontRendererObj.drawString(test,300,5,5312237);
+            Minecraft.getMinecraft().fontRendererObj.drawString(test,0,5,5312237);
         }
     }
 
